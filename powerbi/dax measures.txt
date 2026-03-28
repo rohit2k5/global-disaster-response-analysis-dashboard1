@@ -1,0 +1,57 @@
+Assume your main table is named Disasters. Adjust names if different.
+Basic counts & sums
+Total Disasters = DISTINCTCOUNT(Disasters[EventID])
+Total Casualties = SUM(Disasters[Casualties])            -- casualties can be deaths + injured if combined
+Total Economic Loss = SUM(Disasters[EconomicLoss])       -- numeric currency
+Total Aid = SUM(Disasters[AidAmount])
+Averages & medians
+Avg Response Time (hrs) = AVERAGE(Disasters[ResponseTimeHours])
+Median Response Time (hrs) = MEDIANX(VALUES(Disasters[EventID]), Disasters[ResponseTimeHours])
+Avg Recovery Duration (days) = AVERAGE(Disasters[RecoveryDurationDays])
+Avg Efficiency Score = AVERAGE(Disasters[EfficiencyScore])
+Ratios & normalized measures
+Casualties per Disaster = DIVIDE([Total Casualties], [Total Disasters], 0)
+Economic Loss per Disaster = DIVIDE([Total Economic Loss], [Total Disasters], 0)
+Aid per Casualty = DIVIDE([Total Aid], [Total Casualties], 0)
+Aid per Disaster = DIVIDE([Total Aid], [Total Disasters], 0)
+Timeliness & thresholds (example SLA = 72 hours)
+Responses Within SLA = 
+VAR SLA = 72
+RETURN
+CALCULATE(
+    COUNTROWS(Disasters),
+    FILTER(Disasters, Disasters[ResponseTimeHours] <= SLA)
+)
+
+% Responses Within SLA = DIVIDE([Responses Within SLA], [Total Disasters], 0)
+Performance-weighted metrics
+Weighted Efficiency = 
+DIVIDE(
+    SUMX(Disasters, Disasters[EfficiencyScore] * Disasters[EconomicLoss]),
+    SUM(Disasters[EconomicLoss]),
+    BLANK()
+)
+Trend & YoY
+Disasters This Year = [Total Disasters]   -- depends on context; use time intelligence if Date table exists
+
+Disasters LY = 
+CALCULATE([Total Disasters], SAMEPERIODLASTYEAR('Date'[Date]))
+
+Disasters YoY % = 
+IF(
+    [Disasters LY] > 0,
+    ([Total Disasters] - [Disasters LY]) / [Disasters LY],
+    BLANK()
+)
+Top N helper
+Top 10 Countries by Loss = 
+TOPN(10, SUMMARIZE(Disasters, Disasters[Country], "Loss", SUM(Disasters[EconomicLoss])), [Loss], DESC)
+Dynamic severity bucket (if you want measure-based bucket)
+Severity Label = 
+SWITCH(
+    TRUE(),
+    Disasters[SeverityIndex] >= 8, "Extreme",
+    Disasters[SeverityIndex] >= 6, "Severe",
+    Disasters[SeverityIndex] >= 3, "Moderate",
+    "Low"
+)

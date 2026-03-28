@@ -1,0 +1,19 @@
+•	# Exploratory Analysis Notes
+
+## Data Overview
+The dataset contains global disaster data from 2018–2024 including disaster type, country, economic loss, casualties, response time, and recovery duration.
+
+## Key Observations
+- Disaster frequency increased after 2020
+- Economic losses are concentrated in a few regions
+- Floods and earthquakes contribute most to total loss
+
+## Analysis Approach
+- Used Power BI for data exploration
+- Applied filters for year, country, and disaster type
+- Created visuals to identify trends and correlations
+
+## Forecasting
+- Used Power BI built-in forecasting
+- Created what-if parameter for response time
+- Analyzed impact on recovery duration
