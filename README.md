@@ -88,18 +88,19 @@ powerbi/GlobalDisasterDashboard.pbix
 
 
 ### Aid & Funding
-![Aid & Funding](docs/aid_funding.png)
+<img width="1306" height="775" alt="image" src="https://github.com/user-attachments/assets/8a4bd7f5-d2df-4dce-a1aa-a403b55d3e64" />
+
 
 ### Recovery & Forecasting
-![Recovery Forecasting](docs/recovery_forecasting.png)
+<img width="1308" height="783" alt="image" src="https://github.com/user-attachments/assets/21bdb1ff-d6fb-411d-ba38-b385e9c3de4c" />
+
 
 ---
 
 ## 🛠️ Tools & Technologies
 - Power BI  
 - DAX (Data Analysis Expressions)  
-- Python (ETL Pipeline)  
-- Pandas, NumPy  
+- python pandas
 - Git & GitHub  
 
 ---
