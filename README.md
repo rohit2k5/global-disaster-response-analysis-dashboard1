@@ -1,7 +1,7 @@
 # 🌍 Global Disaster Analytics Dashboard (Power BI)
 
 ## 📌 Project Summary
-This project presents a **Global Disaster Analytics Dashboard** built using **Power BI** to analyze worldwide disaster data from 2018 to 2024.
+This project presents a **Global Disaster respose Analytics Dashboard** built using **Power BI** to analyze worldwide disaster data from 2018 to 2024.
 
 It provides insights into:
 - Disaster frequency and trends
