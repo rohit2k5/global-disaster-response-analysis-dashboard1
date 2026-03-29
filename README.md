@@ -154,7 +154,7 @@ global-disaster-dashboard/
 ---
 
 ## 👨‍💻 Author
-**Shubh**  
+**Rohit Mirage**  
 BCA Student | Data Analyst  
 
 ---
