@@ -76,7 +76,7 @@ powerbi/GlobalDisasterDashboard.pbix
 ## 📷 Dashboard Screenshots
 
 ### Executive Overview
-![Executive Overview](docs/executive_overview.png)
+![Executive Overview](docs/Executive Overview.png)
 
 ### Regional Analysis
 ![Regional Analysis](docs/regional_analysis.png)
