@@ -80,10 +80,12 @@ powerbi/GlobalDisasterDashboard.pbix
 
 
 ### Regional Analysis
-![Regional Analysis](docs/regional_analysis.png)
+<img width="1324" height="781" alt="image" src="https://github.com/user-attachments/assets/af138822-8d1e-46b9-b5be-95fe2992ff71" />
+
 
 ### Response Performance
-![Response Performance](docs/response_performance.png)
+<img width="1313" height="770" alt="image" src="https://github.com/user-attachments/assets/d3b41d72-2593-43e4-81e6-6a5a3b90bdca" />
+
 
 ### Aid & Funding
 ![Aid & Funding](docs/aid_funding.png)
