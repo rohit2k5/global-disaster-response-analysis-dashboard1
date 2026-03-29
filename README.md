@@ -76,7 +76,7 @@ powerbi/GlobalDisasterDashboard.pbix
 ## 📷 Dashboard Screenshots
 
 ### Executive Overview
-docs/Executive Overview.png
+https://github.com/rohit2k5/global-disaster-response-analysis-dashboard1/blob/main/docs/Executive%20Overview.png
 
 ### Regional Analysis
 ![Regional Analysis](docs/regional_analysis.png)
