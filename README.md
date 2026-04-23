@@ -88,11 +88,11 @@ powerbi/GlobalDisasterDashboard.pbix
 
 
 ### Aid & Funding
-<img width="1306" height="775" alt="image" src="https://github.com/rohit2k5/global-disaster-response-analysis-dashboard1/blob/main/data/docs/Screenshot%202026-04-23%20164721.png" />
+<img width="1306" height="775" alt="image" src="https://github.com/rohit2k5/global-disaster-response-analysis-dashboard1/blob/main/data/docs/Screenshot%202026-04-23%20164745.png" />
 
 
 ### Recovery & Forecasting
-<img width="1308" height="783" alt="image" src="https://github.com/rohit2k5/global-disaster-response-analysis-dashboard1/blob/main/data/docs/Screenshot%202026-04-23%20164745.png" />
+<img width="1308" height="783" alt="image" src="https://github.com/rohit2k5/global-disaster-response-analysis-dashboard1/blob/main/data/docs/Screenshot%202026-04-23%20164806.png" />
 
 ### Event Detail
 <img width="1308" height="783" alt="image" src="https://github.com/rohit2k5/global-disaster-response-analysis-dashboard1/blob/main/data/docs/Screenshot%202026-04-23%20164819.png" />
