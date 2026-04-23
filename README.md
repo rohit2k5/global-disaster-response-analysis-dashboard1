@@ -84,18 +84,18 @@ powerbi/GlobalDisasterDashboard.pbix
 
 
 ### Response Performance
-<img width="1313" height="770" alt="image" src="https://github.com/user-attachments/assets/d3b41d72-2593-43e4-81e6-6a5a3b90bdca" />
+<img width="1313" height="770" alt="image" src="https://github.com/rohit2k5/global-disaster-response-analysis-dashboard1/blob/main/data/docs/Screenshot%202026-04-23%20164707.png" />
 
 
 ### Aid & Funding
-<img width="1306" height="775" alt="image" src="https://github.com/user-attachments/assets/8a4bd7f5-d2df-4dce-a1aa-a403b55d3e64" />
+<img width="1306" height="775" alt="image" src="https://github.com/rohit2k5/global-disaster-response-analysis-dashboard1/blob/main/data/docs/Screenshot%202026-04-23%20164721.png" />
 
 
 ### Recovery & Forecasting
-<img width="1308" height="783" alt="image" src="https://github.com/user-attachments/assets/21bdb1ff-d6fb-411d-ba38-b385e9c3de4c" />
+<img width="1308" height="783" alt="image" src="https://github.com/rohit2k5/global-disaster-response-analysis-dashboard1/blob/main/data/docs/Screenshot%202026-04-23%20164745.png" />
 
 ### Event Detail
-<img width="1308" height="783" alt="image" src="https://github.com/user-attachments/assets/21bdb1ff-d6fb-411d-ba38-b385e9c3de4c" />
+<img width="1308" height="783" alt="image" src="https://github.com/rohit2k5/global-disaster-response-analysis-dashboard1/blob/main/data/docs/Screenshot%202026-04-23%20164819.png" />
 
 ---
 
