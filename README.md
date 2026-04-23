@@ -94,6 +94,8 @@ powerbi/GlobalDisasterDashboard.pbix
 ### Recovery & Forecasting
 <img width="1308" height="783" alt="image" src="https://github.com/user-attachments/assets/21bdb1ff-d6fb-411d-ba38-b385e9c3de4c" />
 
+### Event Detail
+<img width="1308" height="783" alt="image" src="https://github.com/user-attachments/assets/21bdb1ff-d6fb-411d-ba38-b385e9c3de4c" />
 
 ---
 
